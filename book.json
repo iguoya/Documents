@@ -3,19 +3,22 @@
 	"language": "zh-hans",
 	"author": "tiger",
 	"plugins": [
+		"fontsettings",
+		"highlight",
+		"livereload",
 		"-sharing",
 		"page-toc",
 		"search-pro",
 		"-search",
 		"-lunr",
 		"mermaid-gb3",
-		"mathjax",
+		"katex",
 		"chart",
 		"new-flowchart",
 		"graph"
 	],
 	"pluginsConfig": {
-		"fontSettings": {
+		"fontsettings": {
 			"theme": "sepia",
 			"family": "serif",
 			"size": 4
@@ -29,7 +32,7 @@
 			"showByDefault": true
 		},
 		"chart": {
-            "type": "highcharts"
+            		"type": "highcharts"
 		},
 		"flow": {
 			"line-color": "red"
