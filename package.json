@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dp:dev": "vuepress dev DesignPatterns",
+    "dp:build": "vuepress build DesignPatterns"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5",
+    "vuepress": "^1.3.1",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
+    "vuepress-plugin-git-log": "^1.0.1",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-medium-zoom": "^1.1.8",
+    "vuepress-plugin-mermaidjs": "^1.2.1",
+    "vuepress-plugin-typescript": "^0.2.0"
+  }
+}
