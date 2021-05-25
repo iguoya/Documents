@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dp:dev": "vuepress dev DesignPatterns",
-    "dp:build": "vuepress build DesignPatterns"
+    "docs:dev": "vuepress dev DesignPatterns",
+    "docs:build": "vuepress build DesignPatterns"
   },
   "devDependencies": {
     "typescript": "^3.7.5",
